@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ul,li,img,input,dl,dt,dd,strong,a,p,i,span,form,p{ padding:0; margin:0;}
+input,textarea{ outline:none;}
+li{ list-style:none;}
+img{ border:0 none; vertical-align:top;}
+a{ text-decoration:none; color:#666666;}
+a:hover{color:#f04381;}
+.clearfix{*zoom:1;}
+.clearfix:after{ content:"."; height:0; clear:both; visibility:hidden; display:block;}
+
+body{ background:#e7e7e7; font-size:14px; font-family:微软雅黑;
+_background-attachment:fixed;_background-image:url(blank);}
+
+.header-zong{width:980px; height:100%; margin:0 auto; padding:4px 0 0 10px;}
+.header-l{ float:left; width:620px; height:auto; }
+.header-l1{ float:left; width:94px; height:auto; padding-right:46px;}
+.header-l2{ float:left; width:62px; height:44px; line-height:38px; padding-right:32px; padding-top:6px;}
+.header-12 a{ color:#666666;}
+.header-l2 a:hover{color:#f04381; }
+.header-l3{ float:left; width:76px; height:44px; line-height:38px; padding-right:36px; padding-top:6px;}
+.header-13 a{ color:#666666;}
+.header-l3 a:hover{color:#f04381; }
+.header-l4{ float:left; width:74px; height:44px; line-height:38px; padding-right:80px; padding-top:6px;}
+.header-13 a{ color:#666666;}
+.header-l3 a:hover{color:#f04381; }
+.header-r{ float:left; width:359px; height:auto;}
+.header-r1{ float:left; width:200px; height:30px; margin:8px 26px 5px 0; background:url(../image/tb.png) top left no-repeat;}
+.header-r11{ float:left; width:94px; height:30px; line-height:30px; padding:0 70px 0 8px; background:none;}
+.header-r12{float:left; width:28px; background:none; border:0;}
+.header-r2{ float:left; width:55px; height:30px; padding:8px 8px 5px 0; line-height:30px; }
+.header-r2 a{ display:block; width:55px; height:30px; padding-left:12px; background:url(../image/tb.png) top left no-repeat; background-position:0 -57px;  }
+.header-r2 a:hover{width:55px; height:30px; background:url(../image/tb.png) top left no-repeat; background-position:0 -170px; }
+.header-r3{ float:left; width:55px; height:30px; padding:8px 14px 5px 0; line-height:30px;  }
+.header-r3 a{ display:block; width:55px; height:30px;  padding-left:12px;  background:url(../image/tb.png) top left no-repeat; background-position:0 -113px; }
+.header-r3 a:hover{width:55px; height:30px; background:url(../image/tb.png) top left no-repeat; background-position:0 -228px; }
+
+.box{ width:847px; height:auto; background:#f7f7f7; border:1px solid #999999; margin:0 auto; padding-left:32px; padding-top:20px; margin-bottom:28px;}
+.box1{ width:846px; height:auto; color:#006699;}
+.box1-1{ float:left; width:300px; font-size:18px; padding-right:459px; height:auto;}
+.box1-2{ float:left; width:50px; padding:26px 28px 0 0; font-size:12px; color:#006699;}
+.box2{ width:300px; height:auto; padding-right:545px; font-size:12px; line-height:36px; color:#444;}
+.bx3{ width:818px; height:auto; color:#444; }
+.box3-1{ text-indent:2em; width:818px; height:auto; line-height:24px; padding-bottom:20px;}
+.box4{text-align:center; margin-bottom:28px;}
+.box4 a{ display:inline; wieth:auto; height:26px; line-height:26px;  background:#006699; padding:6px 4px 6px 4px; color:#fff;}
+.box4 a:hover{ background:#fff; color:#CCC;}
+.box5{ width:818px; height:auto;  color:#006699; font-size:12px; padding:6px 0 24px 0; border-bottom:1px dashed #d2dada; margin-bottom:5px;}
+.box5-1{ float:left; width:132px; height:auto; padding-right:16px; }
+.box5-1 a{ color:#006699;}
+.box5-1 a:hover{color:#f04381; }
+.box5-2{ float:left; width:170px; height:auto; padding-right:24px;  padding-left:12px;  background:url(../image/bk.jpg) no-repeat;}
+.box5-2 a{ color:#006699;}
+.box5-2 a:hover{color:#f04381; }
+.box5-3{ float:left; width:60px; height:auto; padding-left:12px;  background:url(../image/bk.jpg) no-repeat; }
+.box5-3 a{ color:#006699;}
+.box5-3 a:hover{color:#f04381; }
+.box6{ width:818px; height:auto;}
+.box6-1{float:left; width:818px; height:auto; line-height:52px; }
+.box6-2{float:left; width:820px; height:108px;  margin-bottom:10px;  boder:0 none;}
+.box6-21{ boder:0 none;  width:820px; height:108px;}
+.box6-3{ float:left; width:54px; height:30px; background:url(../image/tj.png) no-repeat; cursor:pointer; border:0 none;}
+.box7-1{ width:820px; height:52px; line-height:52px; margin-top:4px; border:1px dashed #f7f7f7;}
+.box7-2{ width:820px; height:auto; font-size:13px; color:#797979;}
+.box7-21{ width:300px; height:48px; line-height:48px; padding-right:520px;}
+.box7-22{ width:784px; height:18px; text-decoration:underline; padding-left:8px; border-left:1px solid #d5d5d5; margin-bottom:12px;}
+.box7-3{ width:820px; height:auto; font-size:13px; color:#797979;}
+.box7-31{ width:300px; height:48px; line-height:48px; padding-right:520px;}
+.box7-32{ width:784px; height:34px; text-decoration:underline; padding-left:8px; border-left:1px solid #d5d5d5; margin-bottom:40px;}
+.db{ width:100%; height:auto; text-align:center; margin-bottom:30px;}
+.db1{ width:100%; height:auto; text-align:center; margin-bottom:10px;}
+.db2{ width:100%; height:auto; text-align:center;}
+ .fixed{ position:fixed; left:0; top:0; width:100%; height:100%;_position:absolute;_top:expression(eval(" documentElement.Srolltop"));
+ background:rgba(0, 0, 0, 0.24);}
+ .fixed-main{ position:absolute; left:50%; top:50%; width:650px; height:216px; background:#fff; border:5px solid #3694d7; margin:-112px 0 0 -330px;}
+ .k1-1{ float:left; width:406px; height:24px; line-height:24px; padding-right:200px;}
+ .k1-2{ display:block; float:left; width:44pxpx; height:24px; line-height:24px; color:#7bbce9;}
+ .k2{ width:65opx; height:auto;}
+ .k2-1{ float:left; width:368px; height:169px; padding-left:40px; border-right:1px solid #cccccc;}
+ .k2-11{ width:366px; height:26px; margin-bottom:8px;}
+ .k2-11 span{ width:44px; height:24px; line-height:24px; color:#444; text-align:left; padding-right:14px; padding-left:8px;}
+ .k2-12{ width:366px; height:26px; margin-bottom:4px;}
+ .k2-12 span{ width:36px; height:24px; line-height:24px; color:#444; text-align:left; padding-right:14px; padding-left:22px;}
+ .k2-13{ display:inline-block; width:293px; height:18px; line-height:18px; padding-left:75px; margin-bottom:20px;}
+ .k2-14{ display:inline-block; width:293px; height:30px; line-height:30px; padding-left:75px;}
+ .k2-14 a{float:left; width:65px; line-height:30px; padding-left:8px;}
+ .k2-141 a{float:left; width:65px; line-height:30px; padding-left:8px; padding-top:8px;}
+ .k2-2{ float:left; width:100px; height:auto; padding-left:34px;}
+ .k2-21{ width:100px; height:46px; line-height:46px;}
+
+
+
+
+
+
+
